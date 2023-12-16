@@ -2,7 +2,7 @@ name: action-workflow-test
 on: push
 jobs: 
   action-push-test:
-    runs-on: ubuntu-lateset
+    runs-on: ubuntu-latest
     steps: 
       - name: Check out repository code
         uses: actions/checkout@v3
