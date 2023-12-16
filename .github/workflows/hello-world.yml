@@ -1,0 +1,10 @@
+name: action-workflow
+on: push
+jobs: 
+  action-workflow-push:
+    runs-on: ubantu-lateset
+    steps: 
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - run: echo "$(cat hellow-world.txt)"
+      
