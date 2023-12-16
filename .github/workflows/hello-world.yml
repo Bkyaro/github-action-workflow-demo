@@ -1,10 +1,9 @@
-name: action-workflow
+name: action-workflow-test
 on: push
 jobs: 
-  action-workflow-push:
+  action-push-test:
     runs-on: ubantu-lateset
     steps: 
       - name: Check out repository code
         uses: actions/checkout@v3
       - run: echo "$(cat hellow-world.txt)"
-      
